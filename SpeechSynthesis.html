@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Gourmet - Com Leitura de Descrição</title>
+    <meta name="description" content="Cardápio interativo com descrições em áudio. Explore pratos deliciosos e ouça suas descrições em voz alta!">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Cardápio Gourmet</h1>
+            <p>Explore nossos pratos e ouça suas descrições!</p>
+        </div>
+    </header>
+
+    <main class="menu">
+        <div class="container">
+
+            <!-- Cardápio de Pratos -->
+            <section class="dishes">
+                <!-- Exemplo de prato -->
+                <div class="dish">
+                    <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" alt="Macarrão com tomate seco e rúcula">
+                    <h2>Macarrão com Tomate Seco e Rúcula</h2>
+                    <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+                </div>
+
+                <!-- Repetir estrutura para os outros pratos -->
+                <div class="dish">
+                    <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg" alt="Salada de Quinoa com Legumes">
+                    <h2>Salada de Quinoa com Legumes</h2>
+                    <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+                </div>
+
+                <div class="dish">
+                    <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg" alt="Bife de Ancho com Chimichurri">
+                    <h2>Bife de Ancho com Chimichurri</h2>
+                    <button onclick="lerDescricao(this)">Ouvir Descrição</button>
+                </div>
+
+                <!-- Continue para os 9 pratos -->
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cardápio Gourmet - Maria Clara Bueno Krug (Todos os direitos reservados).</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
